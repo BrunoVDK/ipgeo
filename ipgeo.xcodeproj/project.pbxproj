@@ -1,0 +1,285 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		15230EF921821D01000B2CAE /* geo.csv in Resources */ = {isa = PBXBuildFile; fileRef = 15230EF821821D01000B2CAE /* geo.csv */; };
+		158FFEE92182174700EFA92D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 158FFEE82182174700EFA92D /* AppDelegate.m */; };
+		158FFEEB2182174700EFA92D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 158FFEEA2182174700EFA92D /* main.m */; };
+		158FFEF02182174700EFA92D /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 158FFEEE2182174700EFA92D /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		15230EF821821D01000B2CAE /* geo.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = geo.csv; sourceTree = "<group>"; };
+		158FFEE22182174700EFA92D /* ipgeo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ipgeo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		158FFEE62182174700EFA92D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		158FFEE72182174700EFA92D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		158FFEE82182174700EFA92D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		158FFEEA2182174700EFA92D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		158FFEEF2182174700EFA92D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		158FFEDF2182174700EFA92D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		158FFED92182174700EFA92D = {
+			isa = PBXGroup;
+			children = (
+				158FFEE42182174700EFA92D /* ipgeo */,
+				158FFEE52182174700EFA92D /* Supporting Files */,
+				158FFEE32182174700EFA92D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		158FFEE32182174700EFA92D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				158FFEE22182174700EFA92D /* ipgeo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		158FFEE42182174700EFA92D /* ipgeo */ = {
+			isa = PBXGroup;
+			children = (
+				158FFEE72182174700EFA92D /* AppDelegate.h */,
+				158FFEE82182174700EFA92D /* AppDelegate.m */,
+				158FFEEE2182174700EFA92D /* MainMenu.xib */,
+				15230EF821821D01000B2CAE /* geo.csv */,
+			);
+			path = ipgeo;
+			sourceTree = "<group>";
+		};
+		158FFEE52182174700EFA92D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				158FFEE62182174700EFA92D /* Info.plist */,
+				158FFEEA2182174700EFA92D /* main.m */,
+			);
+			name = "Supporting Files";
+			path = ipgeo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		158FFEE12182174700EFA92D /* ipgeo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 158FFEFF2182174800EFA92D /* Build configuration list for PBXNativeTarget "ipgeo" */;
+			buildPhases = (
+				158FFEDE2182174700EFA92D /* Sources */,
+				158FFEDF2182174700EFA92D /* Frameworks */,
+				158FFEE02182174700EFA92D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ipgeo;
+			productName = ipgeo;
+			productReference = 158FFEE22182174700EFA92D /* ipgeo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		158FFEDA2182174700EFA92D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Bruno Vandekerkhove";
+				TargetAttributes = {
+					158FFEE12182174700EFA92D = {
+						CreatedOnToolsVersion = 6.1;
+					};
+				};
+			};
+			buildConfigurationList = 158FFEDD2182174700EFA92D /* Build configuration list for PBXProject "ipgeo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 158FFED92182174700EFA92D;
+			productRefGroup = 158FFEE32182174700EFA92D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				158FFEE12182174700EFA92D /* ipgeo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		158FFEE02182174700EFA92D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15230EF921821D01000B2CAE /* geo.csv in Resources */,
+				158FFEF02182174700EFA92D /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		158FFEDE2182174700EFA92D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				158FFEEB2182174700EFA92D /* main.m in Sources */,
+				158FFEE92182174700EFA92D /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		158FFEEE2182174700EFA92D /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				158FFEEF2182174700EFA92D /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		158FFEFD2182174800EFA92D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		158FFEFE2182174800EFA92D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		158FFF002182174800EFA92D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ipgeo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		158FFF012182174800EFA92D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ipgeo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		158FFEDD2182174700EFA92D /* Build configuration list for PBXProject "ipgeo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				158FFEFD2182174800EFA92D /* Debug */,
+				158FFEFE2182174800EFA92D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		158FFEFF2182174800EFA92D /* Build configuration list for PBXNativeTarget "ipgeo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				158FFF002182174800EFA92D /* Debug */,
+				158FFF012182174800EFA92D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 158FFEDA2182174700EFA92D /* Project object */;
+}
